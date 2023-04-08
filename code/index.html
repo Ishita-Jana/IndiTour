@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="refresh" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>indiTour</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+
+    
+</head>
+<body>
+ <!-- -------------navigation------------- -->
+    <nav class="navbar navbar-expand-lg " style="background-color: #e3f2fd;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><h3>iNDI<span>tOUR</span></h3></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html">Home</a>
+                  </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Destinations
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="destinations/popular-dest.html">Popular</a></li>
+                    <li><a class="dropdown-item" href="destinations/spiritual.html">Spiritual</a></li>
+                    <li><a class="dropdown-item" href="destinations/nature-dest.html">Nature</a></li>
+                  </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Experiences
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="./experiences/cultural.html">Cultural</a></li>
+                    <li><a class="dropdown-item" href="./experiences/adventure.html">Adventure</a></li>
+                    <li><a class="dropdown-item" href="./experiences/architecture.html">Architecture</a></li>
+                    <li><a class="dropdown-item" href="./experiences/nature.html">Nature</a></li>
+                    <li><a class="dropdown-item" href="./experiences/people.html">People</a></li>
+                    <li><a class="dropdown-item" href="./experiences/Food.html">Food & Cuisine</a></li>
+                    <li><a class="dropdown-item" href="./experiences/aristrocacy.html">Aristrocacy</a></li>
+                    <li><a class="dropdown-item" href="./experiences/shopping.html">Shopping</a></li>
+                    <li><a class="dropdown-item" href="./experiences/art.html">Art & Culture</a></li>
+                    <li><a class="dropdown-item" href="./experiences/wildlife.html">Wildlife</a></li>
+                  </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./gallery.html">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./blog.html">Blogs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="./contact.html">Contact</a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+<!-- ----------------video--------------------- -->
+    <section class="video-container video1" >
+
+        <video id="play-pause" autoplay muted>
+            <source src="./images/video/Welcome to India ! [CINEMATIC TRAVEL FILM].mp4">
+        </video>
+        <button onclick="playPause()" ><i class="fa-solid fa-play"></i><i class="fa-solid fa-pause"></i></button>
+
+   </section>
+
+   
+<!-- ----------------paragraph--------------------- -->
+
+   <section class="paragraph">
+    <p>
+        One of the oldest civilisations in the world, India is a mosaic of multicultural experiences. With a rich heritage and myriad attractions, the country is among the most popular tourist destinations in the world. It covers an area of 32, 87,263 sq. km, extending from the snow-covered Himalayan heights to the tropical rain forests of the south. As the 7th largest country in the world, India stands apart from the rest of Asia, marked off as it is by mountains and the sea, which give the country a distinct geographical entity. Fringed by <span id="dots">....</span><span id="more">the Great Himalayas in the north, it stretches southwards and at the Tropic of Cancer, tapers off into the Indian Ocean between the Bay of Bengal on the east and the Arabian Sea on the west. As you travel the expanse of the country, you are greeted by diverse nuances of cuisines, faiths, arts, crafts, music, nature, lands, tribes, history and adventure sports. India has a mesmeric conflation of the old and the new. As the bustling old bazaars rub shoulders with swanky shopping malls, and majestic monuments accompany luxurious heritage hotels, the quintessential traveller can get the best of both worlds. Head to the mountains, enjoy a beach retreat or cruise through the golden Thar, India has options galore for all. 
+        </span>
+
+
+    </p>
+    <button onclick="read()" id="buttn-more" >Read more</button>
+    
+    
+    </section>
+
+
+
+<!-- ---------------slider--------------------------  -->
+<div class="blog-head">Must Visit Destinations </div>
+<section class="exp-slider" >
+     
+    <div class="prev"><i class="fa-solid fa-angle-left"></i></div>
+    <div class="container ">
+      
+        <div class="row slider">
+            <div class="col-md-12">
+                <div class="details-card-slider">
+                    <a href="./others/demo.html">
+                      <img src="./images/india/adventure/beach.jpg" alt="">
+                      <h6>Kerela</h6>
+                      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque odio<span class="dest-dots">...</span> <span class="made-more-info">temporibus laboriosam ab expedita doloremque veniam pariatur, nulla iste nisi porro neque ipsam est dolorum, esse soluta? Vitae, nemo delectus?</span></p>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="details-card-slider">
+                    <a href="./others/demo.html">
+                      <img src="./images/india/adventure/hiking.jpg" alt="">
+                      <h6>Jammu</h6>
+                      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque odio<span class="dest-dots">...</span> <span class="made-more-info">temporibus laboriosam ab expedita doloremque veniam pariatur, nulla iste nisi porro neque ipsam est dolorum, esse soluta? Vitae, nemo delectus?</span></p>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="details-card-slider">
+                    <a href="./others/demo.html">
+                      <img src="./images/india/adventure/scuba.jpg" alt="">
+                      <h6>Andaman</h6>
+                      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque odio<span class="dest-dots">...</span> <span class="made-more-info">temporibus laboriosam ab expedita doloremque veniam pariatur, nulla iste nisi porro neque ipsam est dolorum, esse soluta? Vitae, nemo delectus?</span></p>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="details-card-slider">
+                    <a href="./others/demo.html">
+                      <img src="./images/india/adventure/paragliding.jpg" alt="">
+                      <h6>Manali</h6>
+                      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque odio<span class="dest-dots">...</span> <span class="made-more-info">temporibus laboriosam ab expedita doloremque veniam pariatur, nulla iste nisi porro neque ipsam est dolorum, esse soluta? Vitae, nemo delectus?</span></p>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="details-card-slider">
+                    <a href="./others/demo.html">
+                      <img src="./images/india/adventure/hotair.jpg" alt="">
+                      <h6>Rajasthan</h6>
+                      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque odio<span class="dest-dots">...</span> <span class="made-more-info">temporibus laboriosam ab expedita doloremque veniam pariatur, nulla iste nisi porro neque ipsam est dolorum, esse soluta? Vitae, nemo delectus?</span></p>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="details-card-slider">
+                    <a href="./others/demo.html">
+                      <img src="./images/india/adventure/hiking.jpg" alt="">
+                      <h6>Manali</h6>
+                      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque odio<span class="dest-dots">...</span> <span class="made-more-info">temporibus laboriosam ab expedita doloremque veniam pariatur, nulla iste nisi porro neque ipsam est dolorum, esse soluta? Vitae, nemo delectus?</span></p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="next"><i class="fa-solid fa-angle-right"></i></div>
+
+    
+</section>
+
+
+<!-- ----------------experience india--------------- -->
+    <section >
+        <div class="experience-head">Experience India</div>
+        <div class="experience-images">
+           
+            <div class="experience-image-container">
+                
+                <div class="exp-image">
+                    <a href="./experiences/cultural.html"><img src="./images/india/arti.jpg" alt=""></a>
+                    <div class="exp-image-desc">cultural</div>
+                </div>
+                <div class="exp-image">
+                    <a href="./experiences/adventure.html"><img src="./images/india/adventure.jpg" alt=""></a>
+                    <div class="exp-image-desc">Adventure</div>
+                </div>
+                <div class="exp-image">
+                    <a href="./experiences/architecture.html"><img src="./images/india/Home.jpg" alt=""></a>
+                    <div class="exp-image-desc">Architecture</div>
+                </div>
+                <div class="exp-image">
+                    <a href="./experiences/nature.html"><img src="./images/india/image4.jpg" alt=""></a>
+                    <div class="exp-image-desc">Nature</div>
+                </div>
+                <div class="exp-image">
+                    <a href="./experiences/people.html"><img src="./images/india/train.jpg" alt=""></a>
+                    <div class="exp-image-desc">People</div>
+                </div>
+                <div class="exp-image">
+                    <a href="./experiences/Food.html"><img src="./images/india/food.jpg" alt=""></a>
+                    <div class="exp-image-desc">Food and cuisine</div>
+                </div>
+                <div class="exp-image">
+                    <a href="./experiences/aristrocacy.html"><img src="./images/india/hotel.jpg" alt=""></a>
+                    <div class="exp-image-desc">Aristrocacy</div>
+                </div>
+                <div class="exp-image">
+                    <a href="./experiences/shopping.html"><img src="./images/india/shop.jpg" alt=""></a>
+                    <div class="exp-image-desc">Shopping</div>
+                </div>
+                <div class="exp-image">
+                    <a href="./experiences/art.html"><img src="./images/india/art.jpg" alt=""></a>
+                    <div class="exp-image-desc"> Art & Cultural</div>
+                </div>
+                <div class="exp-image">
+                    <a href="./experiences/wildlife.html"><img src="./images/india/wildlife.jpg" alt=""></a>
+                    <div class="exp-image-desc">WildLife</div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+
+<!-- ----------------about india----------------- -->
+    <section>
+        <div class="blog-head">About  India</div>
+        <div class="india-container">
+            <div class="india-card">
+                <div class="contain">
+                <h6 class="head">Weather</h6>
+                <div class="india-text">India is a year round destination. But when it comes to ideal weather in India for travel, the months from October to April is considered the best time to visit India</div></div>
+                <a href="./others/demo.html"><button>Read More</button></a>
+            </div>
+            <div class="india-card">
+                <div class="contain">
+                <h6 class="head">Festivals</h6>
+                <div class="india-text">India is rich in combination of distinct cultures, ethnic origins, languages, religious beliefs, diversified history, and different customs in all states.</div></div>
+                <a href="./others/demo.htmll"><button>Read More</button></a>
+            </div>
+            <div class="india-card">
+                <div class="contain">
+                <h6 class="head">Languages</h6>
+                <div class="india-text">India has 22 separate official languages , it is home to a total of 121 languages and 270 mother tongues. It’s also home to the world’s oldest language, Hindi.</div></div>
+                <a href="./others/demo.html"><button>Read More</button></a>
+            </div>
+        </div>
+    </section>
+
+    
+<!-- ----------------blog--------------- -->
+    <section >
+        <div class="blog-head">Blogs</div>
+        
+            <main class="blog-container">
+                <article class="article-container" >
+                    <img src="./images/india/photoshoot.jpg" alt="">
+                    <div class="text">
+                        <h3>card1</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro voluptates nobis dolor asperiores, ab perspiciatis.</p>
+                        <a href="./blog.html"><button>Read More</button></a>
+                    </div>
+                </article>
+                <article class="article-container">
+                    <img src="./images/india/architecture.jpg" alt="">
+                    <div class="text">
+                        <h3>card2</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro voluptates nobis dolor asperiores, ab perspiciatis.</p>
+                        <a href="./blog.html"><button>Read More</button></a>
+                    </div>
+                </article>
+                <article class="article-container">
+                    <img src="./images/india/Dudhsagar – A trek to remember!.jpg" alt="">
+                    <div class="text">
+                        <h3>card3</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro voluptates nobis dolor asperiores, ab perspiciatis.</p>
+                        <a href="./blog.html"><button>Read More</button></a>
+                    </div>
+                </article>
+                <article class="article-container">
+                    <img src="./images/india/Elephant blessing.jpg" alt="">
+                    <div class="text">
+                        <h3>Card 4 </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro voluptates nobis dolor asperiores, ab perspiciatis.</p>
+                        <a href="./blog.html"><button>Read More</button></a>
+                    </div>
+                </article>
+            </main>
+        
+    </section>
+<!-- ---------------------footer------------------------ -->
+    <footer class="footer-container">
+        <div class="footer-left">
+             <h3>iNDI<span>tOUR</span></h3>
+             <p class="footer-links">
+                 <a href="">Privacy Policy </a>
+                 |
+                 <a href="">Terms</a>
+                 |
+                 <a href="">Emergency </a>
+                 
+             </p>
+        </div>
+        <div class="footer-center">
+            <div class="contact-container">
+                 <i class="fa fa-location-dot"></i>
+                 <p>Kolkata</p>
+            </div>
+            <div class="contact-container"> 
+                <i class="fa fa-phone"></i>
+                <p>+91 76**34**89</p>
+            </div>
+            <div class="contact-container">
+             <i class="fa-solid fa-envelope"></i>
+             <p>xyz@gmail.com</p>
+            </div>
+        </div>
+        <div class="footer-right">
+         <h4 style="color: rgb(189, 189, 162);">About India</h4>
+            <p class="footer-about">
+ 
+             <span id="info">India has a myriad of landscapes, great heritage and culture, varied flora and fauna. The country is the most preferred tourist destinations for tourists from all across the world for its picturesque landscapes, spectacular waterfalls, habitat of the country's largest tiger reserve and home to the warmest people on earth.</span>
+            </p>
+            <div class="footer-icons">
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+ 
+    </footer>
+
+<!-- ---------------javascript-------------------- -->
+<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+<script src="custom_script.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+$('.slider').slick({
+        dots: true,
+        arrows:true,
+        infinite: true,
+        speed: 300,
+        autoplay: true,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        prevArrow: $('.prev'),
+        nextArrow: $('.next'),
+
+responsive: [
+{
+  breakpoint: 1034,
+  settings: {
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    infinite: true,
+    dots: true
+  }
+},
+{
+  breakpoint: 600,
+  settings: {
+    slidesToShow: 2,
+    slidesToScroll: 1
+    
+  }
+},
+{
+  breakpoint: 480,
+  settings: {
+    slidesToShow: 1,
+    slidesToScroll: 1
+  }
+}
+// You can unslick at a given breakpoint now by adding:
+// settings: "unslick"
+// instead of a settings object
+]
+});
+</script>
+    
+    
+</body>
+</html>

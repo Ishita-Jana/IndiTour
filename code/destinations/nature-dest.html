@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- -------------navigation------------- -->
+    <nav class="navbar navbar-expand-lg " style="background-color: #e3f2fd;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/index.html"><h3>iNDI<span>tOUR</span></h3></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link " href="/index.html">Home</a>
+                  </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Destinations
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="popular-dest.html">Popular</a></li>
+                    <li><a class="dropdown-item" href="spiritual.html">Spiritual</a></li>
+                    <li><a class="dropdown-item" href="nature-dest.html">Nature</a></li>
+                  </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Experiences
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="/experiences/cultural.html">Cultural</a></li>
+                    <li><a class="dropdown-item" href="/experiences/adventure.html">Adventure</a></li>
+                    <li><a class="dropdown-item" href="/experiences/architecture.html">Architecture</a></li>
+                    <li><a class="dropdown-item" href="/experiences/nature.html">Nature</a></li>
+                    <li><a class="dropdown-item" href="/experiences/people.html">People</a></li>
+                    <li><a class="dropdown-item" href="/experiences/Food.html">Food & Cuisine</a></li>
+                    <li><a class="dropdown-item" href="/experiences/aristrocacy.html">Aristrocacy</a></li>
+                    <li><a class="dropdown-item" href="/experiences/shopping.html">Shopping</a></li>
+                    <li><a class="dropdown-item" href="/experiences/art.html">Art & Culture</a></li>
+                    <li><a class="dropdown-item" href="/experiences/wildlife.html">Wildlife</a></li>
+                  </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/gallery.html">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/blog.html">Blogs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="/contact.html">Contact</a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <!-- ----------------image----------------------- -->
+   <section > 
+       <div class="pop-dest-head-img d2">
+           <div class="head">NATURE DESTINATION</div>
+       </div> 
+    
+   </section>
+
+  
+
+
+
+
+
+
+
+   <!-- -----------------destinations--------------- -->
+   <section >
+        <p class="heading">Nature oriented destinations in india</p> 
+        <hr>
+        <div class="pop-container">
+           <div class="pop-search">
+           
+                <ul class="custom-dropdown">
+                       
+                       <li class="custom-dropdown2" >
+                           <button onclick="dropdownList1()"> Experience <i class="fa-solid fa-angle-down"></i></button>
+                           <hr>
+                           <ul id="dropdown-block1" >
+                               <li class="dropdown-item exp"><input type="checkbox" class="filter" name="hiking"  >Hiking </li>
+                               <li class="dropdown-item exp"><input type="checkbox" class="filter" name="stargazing"  >Stargazing</li>
+                               <li class="dropdown-item exp"><input type="checkbox" class="filter" name="camp"  >Camping</li>
+                               <li class="dropdown-item exp"><input type="checkbox" class="filter" name="fishing"  >Fishing</li>
+                           </ul>
+                        </li>
+                       
+                        <li class="custom-dropdown2">
+                            <button onclick="dropdownList2()" class=" drop-menu" > State <i class="fa-solid fa-angle-down"></i></button>
+                            <hr>
+                            <ul id="dropdown-block2" >
+                                <li class="dropdown-item state"><input type="checkbox" class="filter" name="assam"  >Assam </li>
+                               <li class="dropdown-item state"><input type="checkbox" class="filter" name="himachal"  >Himachal</li>
+                               <li class="dropdown-item state"><input type="checkbox" class="filter" name="jammu"  >Jammu & Kashmir</li>
+                               <li class="dropdown-item state"><input type="checkbox" class="filter" name="karnataka"  >Karnataka</li>
+                               <li class="dropdown-item state"><input type="checkbox" class="filter" name="meghalaya"  >Meghalaya</li>
+                               <li class="dropdown-item state"><input type="checkbox" class="filter" name="uttarakhand"  >Uttarakhand</li>
+                            </ul> 
+                        </li>
+                        
+                </ul>
+           </div>
+               
+           
+            <p id="result"></p>
+
+
+           <div class="pop-dest-container">
+            <a href="/others/demo.html"><div class="pop-dest-places hiking stargazing jammu" >
+                <div class="img">
+                    <img src="https://assets.cntraveller.in/photos/6138b4d7b608619ba75f717e/master/pass/Ladakh-lead.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h6>Ladakh</h6>
+                    <hr class="hr">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, architecto mollitia officia dolore aspernatur ad ullam itaque illo, explicabo repellendus porro accusamus recusandae dignissimos, laudantium non aliquam odio minus possimus?</p>
+                    <div class="more-dest-img">
+                        <div class="pop-more-img"><img src="https://assets.cntraveller.in/photos/6138b4d7b608619ba75f717e/master/pass/Ladakh-lead.jpg" alt=""></div>
+                        <div class="pop-more-img"><img src="https://static.toiimg.com/thumb/msid-91796663,width-1070,height-580,resizemode-75,imgsize-1191782,pt-32,y_pad-40/91796663.jpg" alt=""></div>
+                        <div class="pop-more-img"><img src="https://images.indianexpress.com/2022/05/Ladakh-accident.jpg" alt=""></div>
+                    </div>
+                </div>
+           </div> </a>
+           <a href="/others/demo.html"><div class="pop-dest-places fishing uttarakhand" >
+                    <div class="img">
+                        <img src="https://www.onlinecorbettbooking.com/images/banner-image-20.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h6>Ramaganga River, Corbett National Park</h6>
+                        <hr class="hr">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, architecto mollitia officia dolore aspernatur ad ullam itaque illo, explicabo repellendus porro accusamus recusandae dignissimos, laudantium non aliquam odio minus possimus?</p>
+                        <div class="more-dest-img">
+                            <div class="pop-more-img"><img src="https://img.jagranjosh.com/images/2021/October/7102021/Jim-Corbett-national-park-name-change.jpg" alt=""></div>
+                            <div class="pop-more-img"><img src="https://www.makemytrip.com/travel-guide/media/dg_image/corbett/Kosi-River-Corbett.jpg" alt=""></div>
+                            <div class="pop-more-img"><img src="https://www.makemytrip.com/travel-guide/media/dg_image/corbett/Kosi-River-Corbett.jpg" alt=""></div>
+                        </div>
+                    </div>
+               </div> </a>
+               <a href="/others/demo.html"><div class="pop-dest-places fishing uttarakhand">
+                    <div class="img">
+                        <img src="https://www.civilsocietyonline.com/static/media/static/2017/12/28/COVER-1_HKsnT0f.869x568.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h6>Pancheshwar</h6>
+                        <hr class="hr">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, architecto mollitia officia dolore aspernatur ad ullam itaque illo, explicabo repellendus porro accusamus recusandae dignissimos, laudantium non aliquam odio minus possimus?</p>
+                        <div class="more-dest-img">
+                            <div class="pop-more-img"><img src="https://static.theprint.in/wp-content/uploads/2020/07/Sharda_or_Mahakali_River_AJTJ_P1020802-e1593589419107.jpg?compress=true&quality=80&w=376&dpr=2.6" alt=""></div>
+                            <div class="pop-more-img"><img src="https://www.tripoffbeat.com/img/resorts/pancheshwar-fishing-retreat-pancheshwar-uttarakhand/900x500/pancheshwar-fishing-retreat-pancheshwar-uttarakhand-23.jpeg" alt=""></div>
+                            <div class="pop-more-img"><img src="https://www.tripoffbeat.com/img/resorts/pancheshwar-fishing-retreat-pancheshwar-uttarakhand/900x500/pancheshwar-fishing-retreat-pancheshwar-uttarakhand-23.jpeg" alt=""></div>
+                        </div>
+                    </div>
+               </div></a>
+               <a href="/others/demo.html"><div class="pop-dest-places hiking himachal stargazing">
+                    <div class="img">
+                        <img src="https://www.oyorooms.com/travel-guide/wp-content/uploads/2019/11/Top-4-Indian-skiing-destinations-Solang-1280x720.webp" alt="">
+                    </div>
+                    <div class="text">
+                        <h6>Manali</h6>
+                        <hr class="hr">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, architecto mollitia officia dolore aspernatur ad ullam itaque illo, explicabo repellendus porro accusamus recusandae dignissimos, laudantium non aliquam odio minus possimus?</p>
+                        <div class="more-dest-img">
+                            <div class="pop-more-img"><img src="https://www.oyorooms.com/travel-guide/wp-content/uploads/2019/11/Top-4-Indian-skiing-destinations-Solang-1280x720.webp" alt=""></div>
+                            <div class="pop-more-img"><img src="https://www.oyorooms.com/travel-guide/wp-content/uploads/2019/11/Top-4-Indian-skiing-destinations-Solang-1280x720.webp" alt=""></div>
+                            <div class="pop-more-img"><img src="https://www.oyorooms.com/travel-guide/wp-content/uploads/2019/11/Top-4-Indian-skiing-destinations-Solang-1280x720.webp" alt=""></div>
+                        </div>
+                    </div>
+               </div></a>
+               <a href="/others/demo.html"> <div class="pop-dest-places stargazing hiking himachal ">
+                    <div class="img">
+                        <img src="https://img.traveltriangle.com/blog/wp-content/uploads/2018/02/stargazing.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h6>Spiti Valley</h6>
+                        <hr class="hr">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, architecto mollitia officia dolore aspernatur ad ullam itaque illo, explicabo repellendus porro accusamus recusandae dignissimos, laudantium non aliquam odio minus possimus?</p>
+                        <div class="more-dest-img">
+                            <div class="pop-more-img"><img src="https://img.traveltriangle.com/blog/wp-content/uploads/2018/02/stargazing.jpg" alt=""></div>
+                            <div class="pop-more-img"><img src="https://img.traveltriangle.com/blog/wp-content/uploads/2018/02/stargazing.jpg" alt=""></div>
+                            <div class="pop-more-img"><img src="https://img.traveltriangle.com/blog/wp-content/uploads/2018/02/stargazing.jpg" alt=""></div>
+                        </div>
+                    </div>
+               </div></a>
+               <a href="/others/demo.html"> <div class="pop-dest-places fishing meghalaya">
+                    <div class="img">
+                        <img src="https://lh3.googleusercontent.com/p/AF1QipMAsFUEyXWzAByhs2b0-BaAMoEpLBuq1edY_oMI=s1600-w400" alt="">
+                    </div>
+                    <div class="text">
+                        <h6>Ranikor</h6>
+                        <hr class="hr">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, architecto mollitia officia dolore aspernatur ad ullam itaque illo, explicabo repellendus porro accusamus recusandae dignissimos, laudantium non aliquam odio minus possimus?</p>
+                        <div class="more-dest-img">
+                            <div class="pop-more-img"><img src="https://lh3.googleusercontent.com/p/AF1QipMAsFUEyXWzAByhs2b0-BaAMoEpLBuq1edY_oMI=s1600-w400" alt=""></div>
+                            <div class="pop-more-img"><img src="https://lh3.googleusercontent.com/p/AF1QipMAsFUEyXWzAByhs2b0-BaAMoEpLBuq1edY_oMI=s1600-w400" alt=""></div>
+                            <div class="pop-more-img"><img src="https://lh3.googleusercontent.com/p/AF1QipMAsFUEyXWzAByhs2b0-BaAMoEpLBuq1edY_oMI=s1600-w400" alt=""></div>
+                        </div>
+                    </div>
+                </div></a>
+                <a href="/others/demo.html"> <div class="pop-dest-places stargazing karnataka">
+                    <div class="img">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Aerial_view_of_Coorg.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h6>Coorg</h6>
+                        <hr class="hr">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, architecto mollitia officia dolore aspernatur ad ullam itaque illo, explicabo repellendus porro accusamus recusandae dignissimos, laudantium non aliquam odio minus possimus?</p>
+                        <div class="more-dest-img">
+                            <div class="pop-more-img"><img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Aerial_view_of_Coorg.jpg" alt=""></div>
+                            <div class="pop-more-img"><img src="https://assets.traveltriangle.com/blog/wp-content/uploads/2015/01/coorg-reviews-tourist-places-tourist-destinations.jpg" alt=""></div>
+                            <div class="pop-more-img"><img src="https://static.india.com/wp-content/uploads/2018/08/coorg-5.jpg?impolicy=Medium_Resize&w=1200&h=800" alt=""></div>
+                        </div>
+                    </div>
+                </div></a>
+                <a href="/others/demo.html"> <div class="pop-dest-places karnataka">
+                    <div class="img">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Munnar_hillstation_kerala.jpg/1200px-Munnar_hillstation_kerala.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h6>Munnar</h6>
+                        <hr class="hr">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, architecto mollitia officia dolore aspernatur ad ullam itaque illo, explicabo repellendus porro accusamus recusandae dignissimos, laudantium non aliquam odio minus possimus?</p>
+                        <div class="more-dest-img">
+                            <div class="pop-more-img"><img src="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,f_auto,fl_progressive.strip_profile,g_auto,q_auto/v1/filestore/3nl09499m5l06g0rucmucktlhk2y_munnar-sunrise.jpg" alt=""></div>
+                            <div class="pop-more-img"><img src="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,f_auto,fl_progressive.strip_profile,g_auto,q_auto/v1/filestore/3nl09499m5l06g0rucmucktlhk2y_munnar-sunrise.jpg" alt=""></div>
+                            <div class="pop-more-img"><img src="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,f_auto,fl_progressive.strip_profile,g_auto,q_auto/v1/filestore/3nl09499m5l06g0rucmucktlhk2y_munnar-sunrise.jpg" alt=""></div>
+                        </div>
+                    </div>
+                </div></a>
+            </div>
+        </div>
+        
+   </section>
+   <!-- ---------------------footer------------------------ -->
+   <footer class="footer-container">
+    <div class="footer-left">
+         <h3>iNDI<span>tOUR</span></h3>
+         <p class="footer-links">
+             <a href="">Privacy Policy </a>
+             |
+             <a href="">Terms</a>
+             |
+             <a href="">Emergency </a>
+             
+         </p>
+    </div>
+    <div class="footer-center">
+        <div class="contact-container">
+             <i class="fa fa-location-dot"></i>
+             <p>Kolkata</p>
+        </div>
+        <div class="contact-container"> 
+            <i class="fa fa-phone"></i>
+            <p>+91 76**34**89</p>
+        </div>
+        <div class="contact-container">
+         <i class="fa-solid fa-envelope"></i>
+         <p>xyz@gmail.com</p>
+        </div>
+    </div>
+    <div class="footer-right">
+     <h4 style="color: rgb(189, 189, 162);">About India</h4>
+        <p class="footer-about">
+
+         <span id="info">India has a myriad of landscapes, great heritage and culture, varied flora and fauna. The country is the most preferred tourist destinations for tourists from all across the world for its picturesque landscapes, spectacular waterfalls, habitat of the country's largest tiger reserve and home to the warmest people on earth.</span>
+        </p>
+        <div class="footer-icons">
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-youtube"></i></a>
+        </div>
+    </div>
+
+</footer>
+
+<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+<script src="/custom_script.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script>
+    $(document).ready(function(){
+
+var arr = [];   //initialising an empty array
+var states = [];
+
+                   $('.exp > input').click(function(){
+
+                   var name = $(this).attr('name');  //retrieving the name of input
+
+                           if($(this).is(":checked")){
+
+                               $('.pop-dest-places').hide();
+
+                               
+                               arr.push(name);
+                               jQuery.each(arr, function(){
+
+                                   $("."+this).show();
+                               });
+
+                               
+                               // alert(name);
+                               //  $('.pop-dest-places').filter('.'+ name).show();
+                               // alert(arr);
+                               
+
+                           }
+
+
+                            else if($(this).is(":not(:checked)")){
+
+                                       name = $(this).attr('name');           
+                                           
+                                       
+                                       $('.pop-dest-places').hide();
+                                      
+                                       arr.splice($.inArray(name,arr),1);
+                                    //    alert(arr); 
+                                       if(arr.length == 0){
+                                           $('.pop-dest-places').show();
+                                           // alert("zero");
+                                       }
+                                       else{
+                                       jQuery.each(arr, function(){
+
+                                                   $("."+this).show();
+                                       });
+                                       
+                                       
+                                       }
+                               }
+});
+
+                   $(".state > input").click(function(){
+
+                     var current_state =  $(this).attr('name');
+                    
+
+                     
+                     if($(this).is(":checked")){
+                       states.push(current_state);
+                            $('.pop-dest-places').hide();
+
+
+                 
+                               jQuery.each(states, function(){
+
+                                   $("."+this).show();
+                               });
+                             
+
+                       }
+                               // alert(name);
+                               //  $('.pop-dest-places').filter('.'+ name).show();
+                              
+                        else if($(this).is(":not(:checked)")){
+
+                                       name = $(this).attr('name');           
+                                           
+
+                                       $('.pop-dest-places').hide();
+                                    //    alert(name);
+                                       states.splice($.inArray(name,arr),1);
+                                    //    alert(states); 
+
+                                       if(states.length == 0 ){
+                                           $('.pop-dest-places').hide();
+                                           
+                                           if(arr.length == 0){
+                                               $('.pop-dest-places').show();
+                                           }
+                                           else{
+                                           jQuery.each(arr, function(){
+
+                                             $("."+this).show();
+                                           });
+                                           }
+                                       }
+                                       else{
+                                       jQuery.each(states, function(){
+
+                                                   $("."+this).show();
+                                       });
+                                     
+
+                                       }
+                               }
+                                                           
+                                       
+
+                   
+
+                   });
+});
+</script>
+</body>
+</html>
